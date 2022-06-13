@@ -1,0 +1,41 @@
+html body {
+  margin: 0px;
+  padding: 0px;
+}
+.titulo {
+  margin-top: 50px;
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  background-image: url("/img/ferreteria3.jpg");
+  width: 50%;
+  margin: 0 auto;
+}
+
+.anterior,
+.siguiente {
+  color: black;
+  font-weight: 400;
+}
+.carousel-item {
+  width: 700px;
+  height: 400px;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.img-footer {
+  border-radius: 50%;
+  transition: all 1s;
+}
+.img-footer:hover {
+  box-shadow: 5px 2px 5px black;
+  transform: translatey(-7px);
+}

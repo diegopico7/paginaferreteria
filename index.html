@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ferreteria El Cometa</title>
+  <link rel="stylesheet" href="estilos.css">
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="estilos.css">
+
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg bg-light">
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-lg bg-light sticky-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="/img/ferreteria.jpg" width="70px" alt=""></a>
+      <a class="navbar-brand" id="logoinicio" href="#"><img src="/img/ferreteria.jpg" alt="elcometa" width="70px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,30 +24,148 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Quienes Somos</a>
+            <a class="nav-link text-light" href="#">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link text-light" href="#">Contacto</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               Productos
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Herramientas</a></li>
-              <li><a class="dropdown-item" href="#">Electricidad</a></li>
-              <li><a class="dropdown-item" href="#">Varios</a></li>
+            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item text-primary" href="#">Herramientas</a></li>
+              <li><a class="dropdown-item text-primary" href="#">Electricidad</a></li>
+              <li><a class="dropdown-item text-primary" href=" #">Varios</a></li>
             </ul>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <h1 class="titulo"><video class="video" src="/img/logoanimadoferreteria.mp4" preload="auto" autoplay muted loop
+      width="300px" height="250px"></video>
+  </h1>
 
+  <div class="container mt-5">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <img src="/img/blackslider.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/bulitslider.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/electricidadslider.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev anterior" type="button" data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon anterior" aria-hidden="true"></span>
+        <span class="visually anterior">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually siguiente">Siguiente</span>
+      </button>
+    </div>
+  </div>
+  <div class="container m-5 d-flex flex-wrap justify-content-center">
+    <div class="card m-2" style="width: 18rem;">
+      <img src="/img/ferreteria2.jpg" class="card-img-top" alt="herramientas" height="200px">
+      <div class="card-body">
+        <h5 class="card-title">Herramientas</h5>
+        <p class="card-text">Excelente calidad y variedad de herramientas.
+
+        </p>
+        <a href="#" class="btn btn-primary">Lista de Productos</a>
+      </div>
+    </div>
+    <div class="card m-2" style="width: 18rem;">
+      <img src="/img/pedidosonline.png" class="card-img-top" alt="pedidos" height="200px">
+      <div class="card-body">
+        <h5 class="card-title">Pedidos Online</h5>
+        <p class="card-text">Realiza tu pedido online o consulta cualquier duda o sugerencia.
+
+        </p>
+        <a href="#" class="btn btn-primary">Contacto</a>
+      </div>
+    </div>
+    <div class="card m-2" style="width: 18rem;">
+      <img src="/img/envios.png" class="card-img-top" alt="" height="200px">
+      <div class="card-body">
+        <h5 class="card-title">Envios a todo el país</h5>
+        <p class="card-text">Realizamos envios a todo el país a traves de correo privado
+
+        </p>
+        <a href="#logoinicio" class="btn btn-primary">Contacto</a>
+      </div>
+    </div>
+  </div>
+
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+  <div class="conteiner-fluid">
+    <div class="row p-3 bg-secondary text-white">
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Ferreteria El Cometa</p>
+        <img src="/img/elcometa.jpg" alt="" width="100px" height="100px">
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Redes Sociales</p>
+        <a class="a-footer" href="https://www.facebook.com" target="_blank"> <img class="img-footer p-1"
+            src="/img/facebook.jpg" alt="" width="50px" height="50px"></a> <a class="a-footer"
+          href="https://www.instagram.com" target="_blank"> <img class="img-footer p-1" src="/img/instagram.jpg" alt=""
+            width="50px" height="50px"></a> <a class="a-footer" href="https://twitter.com/?lang=es" target="_blank"><img
+            class="img-footer p-1" src="/img/twiter1.png" alt="" width="50px" height="50px"></a>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Contacto</p>
+        <p class="text-dark">Lamadrid 498 Tucumán</p>
+        <p class="text-dark">Celular 3813368111</p>
+        <p class="text-dark">tel 3814250268</p>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+
+        <p class="h5 mb-3">Indice</p>
+        <div class="mb-3">
+          <a class="text-dark text-decoration-none" href="index.html">Inicio</a>
+        </div>
+        <div class="mb-3">
+
+          <a class="text-dark text-decoration-none" href="nosotros.html">Nosotros</a>
+        </div>
+        <div class="mb-3"><a class="text-dark text-decoration-none" href="#">Contacto</a>
+        </div>
+        <div class="mb-3"><a class="text-dark text-decoration-none" href="#">Productos</a>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-secondary text-white">
+      <div class="col col-xs-12 col-md-6 col-lg-4">
+        <p class="text-dark">Developed by Pico Diego</p>
+      </div>
+      <div class="col col-xs-12 col-md-6 col-lg-4">
+        <a class="text-decoration-none m-1 text-dark" href="https://www.instagram.com" target="_blank"><img class="m-1"
+            src="/img/instagram.jpg" alt="" width="30px" height="30px">diegogpico</a>
+      </div>
+      <div class="col col-xs-12 col-md-6 col-lg-4">
+        <a class="text-decoration-none m-1 text-dark" href="https://www.facebook.com" target="_blank"><img class="m-1"
+            src="/img/facebook.jpg" alt="" width="30px" height="30px">diegogpico</a>
+      </div>
+      <div class="col-xs-12">
+        <p class="text-white text-center">Copyrigh 2022</p>
+      </div>
+    </div>
+
+  </div>
 
 
 
