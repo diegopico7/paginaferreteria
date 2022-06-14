@@ -1,6 +1,7 @@
 html body {
   margin: 0px;
   padding: 0px;
+  scroll-behavior: smooth;
 }
 .titulo {
   margin-top: 50px;
@@ -39,3 +40,14 @@ html body {
   box-shadow: 5px 2px 5px black;
   transform: translatey(-7px);
 }
+
+/*Ferreteria El cometa abrio sus puertas en el año 1954,
+          fundada
+          por Ruben Pico en sus
+          comienzos solo tenia el rubro pinturería, luego en los años 70 incorporó el rubro ferretería hasta la fecha.
+          En los 90 incorporó el rubro que era su pasión la venta de articulos de pesca. Ubicada en el corazón de barrio
+          sur al frente del palacio de tribununales en una esquina emblemática, supo ganarse el respeto y cariño de sus
+          clientes a base de esfuerzo trabajo y honestidad. El legado de Don Ruben Pico lo siguieron sus hijos Jose y
+          Ruben hijo, hasta el año 2016 que tomaron el mando los nietos de don Ruben, Diego y Jose quienes están al
+          frente en la actualidad. 3 generaciones pasaron y siempre con el mismo objetivo de brindar soluciones al
+          cliente */
