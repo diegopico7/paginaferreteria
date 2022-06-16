@@ -50,3 +50,25 @@ html body {
 .comentarioo {
   margin-left: 65px;
 }
+.tarjeta {
+  width: 150px;
+  height: 150px;
+}
+.contenedor-error {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.img-error {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.inicio-error {
+  text-decoration: none;
+  position: absolute;
+  margin: 15px;
+  width: 100px;
+  height: 70px;
+  font-size: large;
+}
