@@ -56,8 +56,7 @@ html body {
 }
 .contenedor-error {
   display: flex;
-  flex-direction: column;
-  justify-content: end;
+  flex-wrap: wrap;
 }
 .img-error {
   position: relative;
