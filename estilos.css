@@ -54,7 +54,7 @@ html body {
   width: 150px;
   height: 150px;
 }
-.contenedor-error {
+/*.contenedor-error {
   display: flex;
   flex-wrap: wrap;
 }
@@ -70,4 +70,4 @@ html body {
   width: 100px;
   height: 70px;
   font-size: large;
-}
+}*/
