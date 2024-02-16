@@ -14,34 +14,27 @@
 </head>
 
 <body class="bg-dark">
-  <nav class="navbar navbar-expand-lg bg-light sticky-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" id="logoinicio" href="#"><img src="/img/elcometa1.jpg" alt="elcometa" width="70px"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid bg-dark">
+      <a class="navbar-brand" href="./index.html"><img src="./img/elcometa1.jpg" alt="" class="logo-nav"></a>
+      <button class="navbar-toggler navbar-light" style="background-color: #787979;" type=" button"
+        data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon col"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="nosotros.html">Nosotros</a>
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-light" href="contacto.html">Contacto</a>
+            <a class="nav-link" href="./contacto1.html">Contacto</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Productos
-            </a>
-            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item text-primary" href="herramientas.html">Herramientas</a></li>
-              <li><a class="dropdown-item text-primary" href="electricidad.html">Electricidad</a></li>
-              <li><a class="dropdown-item text-primary" href="error.html">Varios</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="./herramientas.html">Productos</a>
           </li>
         </ul>
       </div>
@@ -50,218 +43,208 @@
   <h1 class="titulo"><video class="video" src="/img/logoanimadoferreteria.mp4" preload="auto" autoplay muted loop
       width="300px" height="250px"></video>
   </h1>
-  <!--<div class="container m-5 d-flex flex-wrap justify-content-around">-->
-  <div class="row mt-5 d-flex justify-content-center">
-    <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
 
-      <img src="/img/alicate.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Alicate Black Jack</p>
+  <h2 class="text-light text-center m-5">Nuestras herramientas</h2>
+  <h4 class="text-light text-center m-5">Marcas que trabajamos</h4>
+  <ul class="contenedor-marcas">
+    <li><img src="./img/bulit.png" alt="" class="img-marcas mt-2"></li>
+    <li><img src="./img/blackjack.jpg" alt="" class="img-marcas mt-2 "></li>
+    <li><img src="./img/mota.jpg" alt="" class="img-marcas mt-2 "></li>
 
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
-      <img src="/img/pinza.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Pinza Universal Black Jack</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
-      <img src="/img/pinzapunta.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Pinza punta Black Jack</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
-      <img src="/img/cutter.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Cutter profesional Black Jack</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
-      <img src="/img/cajaherramienta.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Caja Herramientas Black Jack</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
-      <img src="/img/hacha.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Hacha Black Jack</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
-      <img src="/img/serrucho.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Serrucho Black Jack</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
-      <img src="/img/martillo.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Martillo Black Jack</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
-      <img src="/img/tubos.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Tubos Black Jack</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
-      <img src="/img/maza.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Maza Black Jack</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
-      <img src="/img/pinzapelacable.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Pinza pelacable Black Jack</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/destornilladores.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Destornilladores Black Jack</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/universalpuntaalicatebulit.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Pinzas Bulit</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/francesabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Francesa bulit</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/emgrampadorabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Emgrampadora uso intensivo</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/llavecombinadabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Llave combinadas bulit</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/nivelbulit.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Nivel profesional bulit</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/picolorobulit.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Pico Loro bulit</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/remachadorabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Remachadora bulit</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/pinzasminibulit.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Pinzas artesanos</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/amoladorabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Amoladora bulit</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/ajustacañobulit.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Ajusta Caños bulit</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/cintametricabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Cinta metricas bulit</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/espatulabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Espatulas</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/candadosbulitdorado.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Candados Bulit dorados</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/candadosbulithierro.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Candados bulit hierro</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/candadosmacao.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Candados Macao</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/sekur.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Candados sekur</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/pinceles.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Pinceles</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/pinceles1.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Pinceles artistica</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/rodilloslana.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Rodillos lana</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/rodillosgomaespuma.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Rodillos goma espuma</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/rodillosepoxi.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Rodillos epoxi</p>
-    </div>
-    <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
-      <img src="/img/rodillolanasintetica.jpg" class="card-img-top" alt="herramientas" height="100px">
-      <p class="card-title">Rodillo lana sintética</p>
+  </ul>
+  <br>
+  <input id="searchInput" type="text" class="input-buscador" placeholder="buscar herramientas 🔍">
+  <br>
+  <div id="productos">
+    <div class="row mt-5 d-flex justify-content-center">
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+
+        <img src="/img/alicate.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Alicate Black Jack</p>
+
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+        <img src="/img/pinza.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Pinza Universal Black Jack</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+        <img src="/img/pinzapunta.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Pinza punta Black Jack</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+        <img src="/img/cutter.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Cutter profesional Black Jack</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+        <img src="/img/cajaherramienta.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Caja Herramientas Black Jack</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+        <img src="/img/hacha.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Hacha Black Jack</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+        <img src="/img/serrucho.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Serrucho Black Jack</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+        <img src="/img/martillo.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Martillo Black Jack</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+        <img src="/img/tubos.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Tubos Black Jack</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+        <img src="/img/maza.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Maza Black Jack</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+        <img src="/img/pinzapelacable.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Pinza pelacable Black Jack</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/destornilladores.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Destornilladores Black Jack</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/universalpuntaalicatebulit.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Pinzas Bulit</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/francesabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Francesa bulit</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/emgrampadorabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Emgrampadora uso intensivo</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/llavecombinadabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Llave combinadas bulit</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/nivelbulit.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Nivel profesional bulit</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/picolorobulit.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Pico Loro bulit</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/remachadorabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Remachadora bulit</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/pinzasminibulit.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Pinzas artesanos</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/amoladorabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Amoladora bulit</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/ajustacañobulit.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Ajusta Caños bulit</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/cintametricabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Cinta metricas bulit</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/espatulabulit.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Espatulas</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/candadosbulitdorado.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Candados Bulit dorados</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/candadosbulithierro.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Candados bulit hierro</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+        <img src="/img/mota2.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Herramientas Mota</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2" style="width: 150px; height:150px ;">
+        <img src="/img/mota1.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Pinza podar mano mota</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/candadosmacao.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Candados Macao</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/sekur.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Candados sekur</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/pinceles.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Pinceles</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/pinceles1.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Pinceles artistica</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/rodilloslana.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Rodillos lana</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/rodillosgomaespuma.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Rodillos goma espuma</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/rodillosepoxi.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Rodillos epoxi</p>
+      </div>
+      <div class="card tarjeta m-2 col-xs-12 col-md-2 col-lg-2" style="width: 150px; height:150px ;">
+        <img src="/img/rodillolanasintetica.jpg" class="card-img-top" alt="herramientas" height="100px">
+        <p class="card-title">Rodillo lana sintética</p>
+      </div>
     </div>
   </div>
   <hr class="text-white mt-5">
-  <div class="container-fluid mt-3">
-    <section class="row d-flex justify-content-center flex-wrap">
-      <div class="col-2 col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <a href="index.html"><img class="w-25" src="/img/inicio.jpg" alt=""></a>
-      </div>
-      <div class="col-2 col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <a href="electricidad.html"><img class="w-25" src="/img/electricidadiconoo.png" alt=""></a>
-      </div>
-      <div class="col-2 col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <a href="error.html"><img class="w-25" src="/img/icoplomeria.jpg" alt=""></a>
-      </div>
-      <div class="col-2 col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <a href="pintura.html"> <img class="w-25" src="/img/pinturaico.jpg" alt=""></a>
-      </div>
-      <div class="col-2 col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <a href="pegamentos.html"> <img class="w-25" src="/img/pegamentos/pegamentoico.jpg" alt=""></a>
-      </div>
-    </section>
+  <h4 class="text-light text-center mb-5">Ver mas artículos</h4>
+  <div class="contenedor-masArticuloss">
+
+    <a href="./electricidad.html"><img src="./img/iconoelectricidad.png" alt="" class="img-masArticulos"></a>
+    <a href="./pintura.html"><img src="./img/pinturaico3.jpg" alt="" class="img-masArticulos"></a>
+    <a href="./plomeria.html"><img src="./img/icoplomeria.jpg" alt="" class="img-masArticulos"></a>
+    <a href="./pegamentos.html"><img src="./img/pegamentos/pegamentoico.jpg" alt="" class="img-masArticulos"></a>
+
   </div>
 
   <hr class="text-white mt-3">
   <br><br>
 
-  <div class="conteiner-fluid">
-    <div class="row p-3 bg-secondary text-white">
-      <div class="col-xs-12 col-md-6 col-lg-3">
-        <p class="h5 mb-3">Ferreteria El Cometa</p>
-        <img src="/img/elcometa.jpg" alt="" width="100px" height="100px">
-      </div>
-      <div class="col-xs-12 col-md-6 col-lg-3">
-        <p class="h5 mb-3">Redes Sociales</p>
-        <a class="a-footer" href="https://www.facebook.com/ferreteria.cometa.3" target="_blank"> <img
-            class="img-footer p-1" src="/img/facebook.jpg" alt="" width="50px" height="50px"></a> <a class="a-footer"
-          href="https://www.instagram.com/ferreteriaelcometa/" target="_blank"> <img class="img-footer p-1"
-            src="/img/instagram.jpg" alt="" width="50px" height="50px"></a> <a class="a-footer"
-          href="https://twitter.com/?lang=es" target="_blank"><img class="img-footer p-1" src="/img/twiter1.png" alt=""
-            width="50px" height="50px"></a>
-      </div>
-      <div class="col-xs-12 col-md-6 col-lg-3">
-        <p class="h5 mb-3">Contacto</p>
-        <p class="text-dark">Lamadrid 498</p>
-        <p class="text-dark">Celular 3813368111</p>
-        <p class="text-dark">S.M Tucumán - Argentina</p>
-      </div>
-      <div class="col-xs-12 col-md-6 col-lg-3">
-
-        <p class="h5 mb-3">Indice</p>
-        <div class="mb-3">
-          <a class="text-dark text-decoration-none" href="index.html">Inicio</a>
-        </div>
-
-        <div class="mb-3"><a class="text-dark text-decoration-none" href="contacto.html">Contacto</a>
-        </div>
-        <div class="mb-3"><a class="text-dark text-decoration-none" href="productos.html">Productos</a>
-        </div>
-      </div>
+  <section class="footer">
+    <div class="logo-footer">
+      <img src="./img/cometagif2.gif" alt="" class="img-logo-footer">
     </div>
-    <div class="mb-1 row d-flex">
-      <div class="col col-xs-12 col-md-4 col-lg-12 d-flex justify-content-center">
-        <p class="text-white">Developed by DP</p>
-        <a class="text-decoration-none  text-white" href="https://www.instagram.com/diegogpico" target="_blank"><img
-            class="m-1" src="/img/instagram.jpg" alt="" width="20px" height="15px"></a>
-        <a class="text-decoration-none  text-white" href="https://www.facebook.com/diego.pico.16" target="_blank"><img
-            class="m-1" src="/img/facebook.jpg" alt="" width="20px" height="15px"></a>
-        <p class="text-white">Copyright 2022
-      </div>
+    <div class="footer-info1">
+      <h5 class="text-light">El Cometa desde 1954</h5>
+      <h6 class="text-light">San Miguel de Tucumán </h6>
+      <ul class="redes-sociales-footer">
+        <li class="listas-footer"><a href="" target="_blank"><img src="./img/facebook.jpg" alt=""
+              class="img-footer"></a></li>
+        <li class="listas-footer"><a href="" target="_blank"><img src="./img/instagram.jpg" alt=""
+              class="img-footer"></a>
+        </li>
+        <li class="listas-footer"><a href="" target="_blank"><img src="./img/wasap2.jpg" alt="" class="img-footer"></a>
+        </li>
+        <li class="listas-footer"><a href="./index.html"><img src="./img/inicio.jpg" alt="" class="img-footer"></a></li>
+      </ul>
+
     </div>
 
-
-  </div>
+    <div class="footer-div"></div>
+  </section>
+  <br>
+  <p class="text-light footer-copy text-center">Devoleped by <a class="link-copy" href="www.tucprogram.online"
+      target="_blank">Tucprogram</a></p>
+  <p class="text-light footer-copy text-center">copyright 2024</p>
 
 
 
@@ -269,6 +252,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
